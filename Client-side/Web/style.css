@@ -1,0 +1,48 @@
+body,html{
+    height: 100%;
+}
+.background{
+    /*background: #f0c53a;*/
+    background-image: linear-gradient(125deg,cornflowerblue,cadetblue,hotpink,pink,cadetblue,cornflowerblue);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 400%;
+    animation: bganimation 15s infinite;
+}
+.header1{
+    alignment: center;
+}
+@keyframes bganimation {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.footer1 {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /*color: white;*/
+    text-align: center;
+}
+
+/*@keyframes cardanimation {*/
+/*    0%{*/
+/*        background-position: 0% 50%;*/
+/*    }*/
+/*    50%{*/
+/*        background-position: 100% 50%;*/
+/*    }*/
+/*    100%{*/
+/*        background-position: 0% 50%;*/
+/*    }*/
+/*}*/
