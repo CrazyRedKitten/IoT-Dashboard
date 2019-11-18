@@ -4,10 +4,9 @@ import Adafruit_DHT
 from time import sleep
 import datetime
 
-humidity, temperature = Adafruit_DHT.read_retry(11, 26)
-
 def main():
     while True:
+        humidity, temperature = Adafruit_DHT.read_retry(11, 26)
         date = datetime.datetime.now()
         time = date.strftime("%H:%M:%S")
         today = "%s.%s.%s" %(date.day, date.month, date.year)
