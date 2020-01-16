@@ -1,4 +1,4 @@
 # Service-Deployment-Project
 
-Web-based dashboard.
+IoT dashboard.
 Made for a School Project.
